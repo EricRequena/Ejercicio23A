@@ -21,5 +21,12 @@ namespace Ejercicio23A
             resultat = OneVal * OneVal;
             return resultat;
         }
+        public static double Cercle(int OneVal, double pi) // Corrected: Change return type to double.
+        {
+            double resultat;
+
+            resultat = pi * (OneVal * OneVal);
+            return resultat;
+        }
     }
 }
