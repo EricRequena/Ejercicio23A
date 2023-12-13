@@ -28,5 +28,12 @@ namespace Ejercicio23A
             resultat = pi * (OneVal * OneVal);
             return resultat;
         }
+        public static int Penta(int OneVal, int SecondVal)
+        {
+            int resultat;
+
+            resultat = (((OneVal * 5) * SecondVal) / 2);
+            return resultat;
+        }
     }
 }
