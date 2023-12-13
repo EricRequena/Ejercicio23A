@@ -14,5 +14,12 @@ namespace Ejercicio23A
             resultat = OneVal * SecondVal;
             return resultat;
         }
+        public static int Cuadrat(int OneVal)
+        {
+            int resultat;
+
+            resultat = OneVal * OneVal;
+            return resultat;
+        }
     }
 }
